@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Revenue Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .interface {
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .interface h2 {
+            margin-top: 0;
+        }
+        .interface table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .interface table, th, td {
+            border: 1px solid black;
+        }
+        .interface th, .interface td {
+            padding: 8px;
+            text-align: left;
+        }
+        .interface th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="interface">
+        <h2>Game Revenue Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Game</th>
+                    <th>Day</th>
+                    <th>Month</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>NBA 2K25</td>
+                    <td>$12,328</td>
+                    <td>300,000</td>
+                    <td>$4,200,000</td>
+                </tr>
+                <tr>
+                    <td>Fortnite</td>
+                    <td>$2,000,000</td>
+                    <td>$28,000,000</td>
+                    <td>$600,000,000</td>
+                </tr>
+                <tr>
+                    <td>Mafia 2</td>
+                    <td>$3,000</td>
+                    <td>20,000</td>
+                    <td>200,000</td>
+                </tr>
+                <tr>
+                    <td>GTA 5</td>
+                    <td>1,000,000</td>
+                    <td>28,000,000</td>
+                    <td>650,000,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
